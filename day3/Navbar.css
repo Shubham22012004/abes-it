@@ -1,0 +1,51 @@
+/*
+box model have some default property such as content padding border and margin.
+
+child selector : it select only first generation descendet of specified element "div>p"  if <div> <h1> <p> it will not work in this situation but it will work for <div> <p>
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.head0{
+    font-size: 50px;
+    background-color: goldenrod;
+}
+
+#heading1{
+    color: blue;
+}
+#heading2{
+    color: red;
+}
+
+.box{
+    display: flex;
+    height: 130px;
+    background-color: rgb(237, 127, 127);
+    font-size: 30px;
+    margin: 10px 30px 0px 0px;
+    border: 5px dashed wheat;
+    align-items: center;
+    
+}
+#box1{
+    height: 120px;
+    width: 120px;
+    background-color: greenyellow;
+}
+#box2{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(220, 28, 127);
+}
+#box3{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(47, 28, 134);
+}
+#box4{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(16, 199, 196);
+}
