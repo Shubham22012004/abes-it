@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scrrpt.js"></script>
+</head>
+<body>
+    <!-- <p></p>
+    <p></p>
+
+    <button onclick="display()">
+        click me
+    </button>
+    
+    <h1>first heading</h1>
+    <button onclick="change_header()">click to chagne header</button>
+<br><br>
+    <a href="https://monkeytype.com/">abes college</a> -->
+
+    <!-- <button onclick="addContent()">click</button> -->
+
+<!--     
+    <div id="box1" style="height: 200px; width: 200px;"></div>
+    
+    <p id="res"></p>
+    <button id="btn">click </button> -->
+
+    <input type="text" name="" id="txt" placeholder="input...">
+    <p id="res"></p>
+    <script>
+        // const btn=document.querySelector('button');
+        // btn.addEventListener('click',()=>alert('hello'));
+
+        // const btn=document.querySelector('button');
+        // btn.addEventListener('click',()=>{document.getElementById('res').innerHTML="Updated"});
+
+        // document.getElementById("#btn").onmouseover=()=>{
+        //     document.querySelector("#box1").style.backgroundColor="red";
+        // }
+
+        const handlekeypress=(event)=>{
+            document.getElementById('res').innerHTML = event.target.value;
+        }
+        let myinput=document.getElementById('txt');
+        myinput.addEventListener('keypress',handlekeypress);
+    </script>
+</body>
+</html>
