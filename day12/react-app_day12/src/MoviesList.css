@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}
+.movie-list{
+  display:flex;
+  flex-wrap:wrap;/* if element go beyong the size then it goes to new line*/
+  background-color:black;
+  color:white;
+  justify-content:center;
+}
+
+.movie-card{
+  width:30%;
+  margin:10px;
+  height:600px;
+  border:10px solid white;
+  align-items:center;
+  justify-items:center;
+}
+
+.movie-img{
+  width:80%;
+  height:400px;
+  padding:20px;
+  margin-bottom:30px;
+  object-fit:contain;
+  box-shadow:3px 5px 10px red;
+  filter:drop-shadow(20px);
+}
