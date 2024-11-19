@@ -1,0 +1,11 @@
+h1{
+  background-color: aqua;
+}
+
+h2{
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 3px solid dotted;
+  border-radius: 20px;
+}
