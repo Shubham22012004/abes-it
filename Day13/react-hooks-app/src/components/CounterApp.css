@@ -1,0 +1,28 @@
+.disp{
+  height: 40vh;
+  margin: 10px;
+  background-color: aqua;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header{
+  height: 80px;
+  width: 30vw;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.btn{
+  height: 8vh;
+  width: 10vw;
+  padding: 5px;
+  background-color: rgb(37, 123, 215);
+  color: white;
+}
+.btn:hover{
+  background-color: bisque;
+  color: black;
+}
