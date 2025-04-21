@@ -1,0 +1,13 @@
+types of middleware  
+
+1. application level middleware
+    const m1 = (req,res,next)=>{//code}
+
+2.Router level middleware
+
+
+3. Built in middleware
+
+4. third-party 
+
+5. Error handling

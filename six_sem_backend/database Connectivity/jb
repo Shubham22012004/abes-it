@@ -1,0 +1,39 @@
+DataBase Connectivity
+
+Install MongoDB Community Server
+Install Compass
+ATLAS(Mongo Cloud)
+
+
+
+
+
+show databases
+sample_mflix  110.73 MiB
+admin         348.00 KiB
+local          16.03 GiB
+use FSD_IT_B //to create database if not present then automatically created and insert
+
+db.createCollection("users")
+{ ok: 1 }
+
+--inserting user
+db.users.insertOne({name:"shubham", email:"abes@gmail.com",age:45})
+{
+  acknowledged: true,
+  insertedId: ObjectId('67ebb6c8564a5e20a6152798')
+}
+
+---for finding or searching
+db.users.find()
+{
+  _id: ObjectId('67ebb6c8564a5e20a6152798'),
+  name: 'shubham',
+  email: 'abes@gmail.com',
+  age: 45
+}
+db.users.find({name:"shubham"})
+
+
+---updating
+db.users.updateOne({name:"shubham"},{$set:{name:"shubham yadav"}})

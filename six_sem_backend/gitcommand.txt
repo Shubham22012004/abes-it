@@ -1,0 +1,14 @@
+git config --global username "Shubham22012004"
+
+git config --global user.email "shubhamyadavoffice123@gmail.com"
+
+git checkout main
+git status
+
+git add .
+
+git commit -m "update file"
+
+git remote use 
+
+git finish origin main
