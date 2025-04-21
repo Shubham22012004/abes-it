@@ -42,8 +42,8 @@ const addUser = async(req,res)=>{
 const editUser = async(req,res)=>{
   try{
     const email=req.params.email;
-    const {name, password, roel}=req.body;
-    const updateUser = await user.findOneAndUpdate({email},{$set:{name,password,role}});
+    const {name, password, role}=req.body;
+    const updateUser = await User.findOneAndUpdate({email},{$set:{name,password,role}});
     const user =await updateUser.save();
     res.status(200).json(user);
   }catch(err){
